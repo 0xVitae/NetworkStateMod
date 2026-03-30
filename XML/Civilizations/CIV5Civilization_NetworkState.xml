@@ -20,7 +20,7 @@
             <AlphaIconAtlas>NETWORKSTATE_ALPHA_ATLAS</AlphaIconAtlas>
             <MapImage>MapAmerica512.dds</MapImage>
             <DawnOfManQuote>TXT_KEY_CIV5_DOM_NETWORK_STATE_TEXT</DawnOfManQuote>
-            <DawnOfManImage>DOM_Washington.dds</DawnOfManImage>
+            <DawnOfManImage>DOM_NetworkState.dds</DawnOfManImage>
         </Row>
     </Civilizations>
 
