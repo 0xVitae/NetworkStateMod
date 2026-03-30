@@ -62,6 +62,7 @@
         <File md5="" import="1">Art/Icons/NetworkStateLeader_32.dds</File>
         <File md5="" import="1">Art/Icons/NetworkStateLeader_24.dds</File>
         <File md5="" import="1">Art/Icons/DOM_NetworkState.dds</File>
+        <File md5="" import="1">Art/Icons/MapNetworkState.dds</File>
         <File md5="" import="1">Art/Leaderheads/Balaji.dds</File>
         <File md5="" import="1">Art/Leaderheads/Balaji_Leaderhead.xml</File>
     </Files>
