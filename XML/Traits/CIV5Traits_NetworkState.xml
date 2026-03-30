@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+    <!-- ==================== TRAIT ==================== -->
+    <Traits>
+        <Row>
+            <Type>TRAIT_NETWORK_EFFECTS</Type>
+            <Description>TXT_KEY_TRAIT_NETWORK_EFFECTS</Description>
+            <ShortDescription>TXT_KEY_TRAIT_NETWORK_EFFECTS_SHORT</ShortDescription>
+            <!-- Bonus to influence/relations with City-States -->
+            <CityStateBonusModifier>25</CityStateBonusModifier>
+            <CityStateFriendshipModifier>25</CityStateFriendshipModifier>
+        </Row>
+    </Traits>
+
+    <!-- Flat yield bonus in every city -->
+    <Trait_YieldChanges>
+        <Row>
+            <TraitType>TRAIT_NETWORK_EFFECTS</TraitType>
+            <YieldType>YIELD_GOLD</YieldType>
+            <Yield>2</Yield>
+        </Row>
+        <Row>
+            <TraitType>TRAIT_NETWORK_EFFECTS</TraitType>
+            <YieldType>YIELD_SCIENCE</YieldType>
+            <Yield>1</Yield>
+        </Row>
+    </Trait_YieldChanges>
+
+</GameData>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+    <!-- ==================== CIVILIZATION: THE NETWORK STATE ==================== -->
+    <Civilizations>
+        <Row>
+            <Type>CIVILIZATION_NETWORK_STATE</Type>
+            <Description>TXT_KEY_CIV_NETWORK_STATE_DESC</Description>
+            <ShortDescription>TXT_KEY_CIV_NETWORK_STATE_SHORT_DESC</ShortDescription>
+            <Adjective>TXT_KEY_CIV_NETWORK_STATE_ADJECTIVE</Adjective>
+            <Civilopedia>TXT_KEY_CIV5_NETWORK_STATE_TEXT</Civilopedia>
+            <CivilopediaTag>CIVILOPEDIA_CIVILIZATIONS_NETWORK_STATE</CivilopediaTag>
+            <DefaultPlayerColor>PLAYERCOLOR_NETHERLANDS</DefaultPlayerColor>
+            <ArtDefineTag>ART_DEF_CIVILIZATION_AMERICA</ArtDefineTag>
+            <ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+            <ArtStyleSuffix>_EURO</ArtStyleSuffix>
+            <ArtStylePrefix>EUROPEAN </ArtStylePrefix>
+            <PortraitIndex>0</PortraitIndex>
+            <IconAtlas>NETWORKSTATE_ATLAS</IconAtlas>
+            <AlphaIconAtlas>NETWORKSTATE_ALPHA_ATLAS</AlphaIconAtlas>
+            <MapImage>MapAmerica512.dds</MapImage>
+            <DawnOfManQuote>TXT_KEY_CIV5_DOM_NETWORK_STATE_TEXT</DawnOfManQuote>
+            <DawnOfManImage>DOM_Washington.dds</DawnOfManImage>
+        </Row>
+    </Civilizations>
+
+    <!-- Link leader to civilization -->
+    <Civilization_Leaders>
+        <Row>
+            <CivilizationType>CIVILIZATION_NETWORK_STATE</CivilizationType>
+            <LeaderheadType>LEADER_BALAJI</LeaderheadType>
+        </Row>
+    </Civilization_Leaders>
+
+    <!-- Free starting units (required by engine for proper civ initialization) -->
+    <Civilization_FreeUnits>
+        <Row>
+            <CivilizationType>CIVILIZATION_NETWORK_STATE</CivilizationType>
+            <UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+            <Count>1</Count>
+            <UnitAIType>UNITAI_SETTLE</UnitAIType>
+        </Row>
+    </Civilization_FreeUnits>
+
+    <!-- Starting techs -->
+    <Civilization_FreeTechs>
+        <Row>
+            <CivilizationType>CIVILIZATION_NETWORK_STATE</CivilizationType>
+            <TechType>TECH_SAILING</TechType>
+        </Row>
+        <Row>
+            <CivilizationType>CIVILIZATION_NETWORK_STATE</CivilizationType>
+            <TechType>TECH_WRITING</TechType>
+        </Row>
+    </Civilization_FreeTechs>
+
+    <!-- Starting buildings (palace is standard) -->
+    <Civilization_FreeBuildingClasses>
+        <Row>
+            <CivilizationType>CIVILIZATION_NETWORK_STATE</CivilizationType>
+            <BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+        </Row>
+    </Civilization_FreeBuildingClasses>
+
+    <!-- City names — network/crypto/tech themed -->
+    <Civilization_CityNames>
+        <Row>
+            <CivilizationType>CIVILIZATION_NETWORK_STATE</CivilizationType>
+            <CityName>TXT_KEY_CITY_NAME_NETWORK_STATE_1</CityName>
+        </Row>
+        <Row>
+            <CivilizationType>CIVILIZATION_NETWORK_STATE</CivilizationType>
+            <CityName>TXT_KEY_CITY_NAME_NETWORK_STATE_2</CityName>
+        </Row>
+        <Row>
+            <CivilizationType>CIVILIZATION_NETWORK_STATE</CivilizationType>
+            <CityName>TXT_KEY_CITY_NAME_NETWORK_STATE_3</CityName>
+        </Row>
+        <Row>
+            <CivilizationType>CIVILIZATION_NETWORK_STATE</CivilizationType>
+            <CityName>TXT_KEY_CITY_NAME_NETWORK_STATE_4</CityName>
+        </Row>
+        <Row>
+            <CivilizationType>CIVILIZATION_NETWORK_STATE</CivilizationType>
+            <CityName>TXT_KEY_CITY_NAME_NETWORK_STATE_5</CityName>
+        </Row>
+        <Row>
+            <CivilizationType>CIVILIZATION_NETWORK_STATE</CivilizationType>
+            <CityName>TXT_KEY_CITY_NAME_NETWORK_STATE_6</CityName>
+        </Row>
+        <Row>
+            <CivilizationType>CIVILIZATION_NETWORK_STATE</CivilizationType>
+            <CityName>TXT_KEY_CITY_NAME_NETWORK_STATE_7</CityName>
+        </Row>
+        <Row>
+            <CivilizationType>CIVILIZATION_NETWORK_STATE</CivilizationType>
+            <CityName>TXT_KEY_CITY_NAME_NETWORK_STATE_8</CityName>
+        </Row>
+        <Row>
+            <CivilizationType>CIVILIZATION_NETWORK_STATE</CivilizationType>
+            <CityName>TXT_KEY_CITY_NAME_NETWORK_STATE_9</CityName>
+        </Row>
+        <Row>
+            <CivilizationType>CIVILIZATION_NETWORK_STATE</CivilizationType>
+            <CityName>TXT_KEY_CITY_NAME_NETWORK_STATE_10</CityName>
+        </Row>
+        <Row>
+            <CivilizationType>CIVILIZATION_NETWORK_STATE</CivilizationType>
+            <CityName>TXT_KEY_CITY_NAME_NETWORK_STATE_11</CityName>
+        </Row>
+        <Row>
+            <CivilizationType>CIVILIZATION_NETWORK_STATE</CivilizationType>
+            <CityName>TXT_KEY_CITY_NAME_NETWORK_STATE_12</CityName>
+        </Row>
+        <Row>
+            <CivilizationType>CIVILIZATION_NETWORK_STATE</CivilizationType>
+            <CityName>TXT_KEY_CITY_NAME_NETWORK_STATE_13</CityName>
+        </Row>
+        <Row>
+            <CivilizationType>CIVILIZATION_NETWORK_STATE</CivilizationType>
+            <CityName>TXT_KEY_CITY_NAME_NETWORK_STATE_14</CityName>
+        </Row>
+        <Row>
+            <CivilizationType>CIVILIZATION_NETWORK_STATE</CivilizationType>
+            <CityName>TXT_KEY_CITY_NAME_NETWORK_STATE_15</CityName>
+        </Row>
+    </Civilization_CityNames>
+
+    <!-- Spy names -->
+    <Civilization_SpyNames>
+        <Row>
+            <CivilizationType>CIVILIZATION_NETWORK_STATE</CivilizationType>
+            <SpyName>TXT_KEY_SPY_NAME_NETWORK_STATE_0</SpyName>
+        </Row>
+        <Row>
+            <CivilizationType>CIVILIZATION_NETWORK_STATE</CivilizationType>
+            <SpyName>TXT_KEY_SPY_NAME_NETWORK_STATE_1</SpyName>
+        </Row>
+        <Row>
+            <CivilizationType>CIVILIZATION_NETWORK_STATE</CivilizationType>
+            <SpyName>TXT_KEY_SPY_NAME_NETWORK_STATE_2</SpyName>
+        </Row>
+        <Row>
+            <CivilizationType>CIVILIZATION_NETWORK_STATE</CivilizationType>
+            <SpyName>TXT_KEY_SPY_NAME_NETWORK_STATE_3</SpyName>
+        </Row>
+        <Row>
+            <CivilizationType>CIVILIZATION_NETWORK_STATE</CivilizationType>
+            <SpyName>TXT_KEY_SPY_NAME_NETWORK_STATE_4</SpyName>
+        </Row>
+    </Civilization_SpyNames>
+
+    <!-- Unique components — must be here so CIVILIZATION_NETWORK_STATE exists first -->
+    <Civilization_UnitClassOverrides>
+        <Row>
+            <CivilizationType>CIVILIZATION_NETWORK_STATE</CivilizationType>
+            <UnitClassType>UNITCLASS_RIFLEMAN</UnitClassType>
+            <UnitType>UNIT_NETWORK_GUARD</UnitType>
+        </Row>
+    </Civilization_UnitClassOverrides>
+
+    <Civilization_BuildingClassOverrides>
+        <Row>
+            <CivilizationType>CIVILIZATION_NETWORK_STATE</CivilizationType>
+            <BuildingClassType>BUILDINGCLASS_WORKSHOP</BuildingClassType>
+            <BuildingType>BUILDING_STARTUP_ACCELERATOR</BuildingType>
+        </Row>
+    </Civilization_BuildingClassOverrides>
+
+</GameData>

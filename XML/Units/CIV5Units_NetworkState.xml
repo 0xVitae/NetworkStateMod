@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+    <!-- ==================== NETWORK GUARD (replaces Rifleman) ==================== -->
+    <Units>
+        <Row>
+            <Class>UNITCLASS_RIFLEMAN</Class>
+            <Type>UNIT_NETWORK_GUARD</Type>
+            <PrereqTech>TECH_RIFLING</PrereqTech>
+            <Combat>50</Combat>
+            <!-- Rifleman base is 44; Network Guard is stronger -->
+            <RangedCombat>0</RangedCombat>
+            <Cost>225</Cost>
+            <Moves>2</Moves>
+            <CombatLimit>100</CombatLimit>
+            <Domain>DOMAIN_LAND</Domain>
+            <DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
+            <Description>TXT_KEY_UNIT_NETWORK_GUARD</Description>
+            <Civilopedia>TXT_KEY_CIV5_UNIT_NETWORK_GUARD_TEXT</Civilopedia>
+            <Strategy>TXT_KEY_UNIT_NETWORK_GUARD_STRATEGY</Strategy>
+            <Help>TXT_KEY_UNIT_NETWORK_GUARD_HELP</Help>
+            <MilitarySupport>true</MilitarySupport>
+            <MilitaryProduction>true</MilitaryProduction>
+            <Pillage>true</Pillage>
+            <ObsoleteTech>TECH_REPLACEABLE_PARTS</ObsoleteTech>
+            <GoodyHutUpgradeUnitClass>UNITCLASS_INFANTRY</GoodyHutUpgradeUnitClass>
+            <UnitArtInfo>ART_DEF_UNIT_RIFLEMAN</UnitArtInfo>
+            <UnitFlagAtlas>NETWORKSTATE_FLAG_ATLAS</UnitFlagAtlas>
+            <UnitFlagIconOffset>0</UnitFlagIconOffset>
+            <IconAtlas>UNIT_ATLAS_1</IconAtlas>
+            <PortraitIndex>27</PortraitIndex>
+        </Row>
+    </Units>
+
+    <!-- Free promotions for Network Guard -->
+    <Unit_FreePromotions>
+        <!-- Bonus in enemy territory (operating in foreign lands) -->
+        <Row>
+            <UnitType>UNIT_NETWORK_GUARD</UnitType>
+            <PromotionType>PROMOTION_FOREIGN_LANDS</PromotionType>
+        </Row>
+        <!-- Extra sight range -->
+        <Row>
+            <UnitType>UNIT_NETWORK_GUARD</UnitType>
+            <PromotionType>PROMOTION_SCOUTING_1</PromotionType>
+        </Row>
+    </Unit_FreePromotions>
+
+
+</GameData>

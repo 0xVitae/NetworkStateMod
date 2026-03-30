@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="a1b2c3d4-e5f6-7890-abcd-ef1234567890" version="1">
+    <Properties>
+        <Name>The Network State - Balaji Srinivasan</Name>
+        <Description>Adds The Network State civilization led by Balaji Srinivasan. Build a decentralized empire through City-State alliances, technology, and exit over voice.</Description>
+        <Authors>Claude</Authors>
+        <Teaser>The Network State rises. Lead Balaji Srinivasan to prove that the cloud precedes the land.</Teaser>
+        <SupportsSinglePlayer>1</SupportsSinglePlayer>
+        <SupportsMultiplayer>1</SupportsMultiplayer>
+        <SupportsHotSeat>1</SupportsHotSeat>
+        <SupportsMac>1</SupportsMac>
+        <AffectsSavedGames>1</AffectsSavedGames>
+        <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+        <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+        <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+        <ReloadUnitSystem>1</ReloadUnitSystem>
+    </Properties>
+    <Dependencies/>
+    <References/>
+    <Blocks/>
+    <Actions>
+        <OnModActivated>
+            <UpdateDatabase>XML/Art/ArtDefines_NetworkState.xml</UpdateDatabase>
+            <UpdateDatabase>XML/Traits/CIV5Traits_NetworkState.xml</UpdateDatabase>
+            <UpdateDatabase>XML/Buildings/CIV5Buildings_NetworkState.xml</UpdateDatabase>
+            <UpdateDatabase>XML/Units/CIV5Units_NetworkState.xml</UpdateDatabase>
+            <UpdateDatabase>XML/Leaders/CIV5Leader_Balaji.xml</UpdateDatabase>
+            <UpdateDatabase>XML/Civilizations/CIV5Civilization_NetworkState.xml</UpdateDatabase>
+            <UpdateDatabase>Text/EN_US/CIV5GameText_NetworkState.xml</UpdateDatabase>
+        </OnModActivated>
+    </Actions>
+    <EntryPoints>
+        <EntryPoint type="InGameUIAddin" file="Lua/NetworkState.lua">
+            <Name>NetworkState_UA</Name>
+            <Description>Network State UA: +1 Gold and Science per City-State alliance</Description>
+        </EntryPoint>
+    </EntryPoints>
+    <Files>
+        <File md5="" import="0">XML/Art/ArtDefines_NetworkState.xml</File>
+        <File md5="" import="0">XML/Traits/CIV5Traits_NetworkState.xml</File>
+        <File md5="" import="0">XML/Buildings/CIV5Buildings_NetworkState.xml</File>
+        <File md5="" import="0">XML/Units/CIV5Units_NetworkState.xml</File>
+        <File md5="" import="0">XML/Leaders/CIV5Leader_Balaji.xml</File>
+        <File md5="" import="0">XML/Civilizations/CIV5Civilization_NetworkState.xml</File>
+        <File md5="" import="0">Text/EN_US/CIV5GameText_NetworkState.xml</File>
+        <File md5="" import="0">Lua/NetworkState.lua</File>
+        <File md5="" import="1">Art/Icons/NetworkState_256.dds</File>
+        <File md5="" import="1">Art/Icons/NetworkState_128.dds</File>
+        <File md5="" import="1">Art/Icons/NetworkState_80.dds</File>
+        <File md5="" import="1">Art/Icons/NetworkState_64.dds</File>
+        <File md5="" import="1">Art/Icons/NetworkState_48.dds</File>
+        <File md5="" import="1">Art/Icons/NetworkState_45.dds</File>
+        <File md5="" import="1">Art/Icons/NetworkState_32.dds</File>
+        <File md5="" import="1">Art/Icons/NetworkState_24.dds</File>
+        <File md5="" import="1">Art/Icons/NetworkState_Flag.dds</File>
+        <File md5="" import="1">Art/Icons/NetworkStateLeader_256.dds</File>
+        <File md5="" import="1">Art/Icons/NetworkStateLeader_128.dds</File>
+        <File md5="" import="1">Art/Icons/NetworkStateLeader_80.dds</File>
+        <File md5="" import="1">Art/Icons/NetworkStateLeader_64.dds</File>
+        <File md5="" import="1">Art/Icons/NetworkStateLeader_48.dds</File>
+        <File md5="" import="1">Art/Icons/NetworkStateLeader_45.dds</File>
+        <File md5="" import="1">Art/Icons/NetworkStateLeader_32.dds</File>
+        <File md5="" import="1">Art/Icons/NetworkStateLeader_24.dds</File>
+        <File md5="" import="1">Art/Leaderheads/Balaji.dds</File>
+        <File md5="" import="1">Art/Leaderheads/Balaji_Leaderhead.xml</File>
+    </Files>
+</Mod>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+    <Language_en_US>
+
+        <!-- ==================== CIVILIZATION ==================== -->
+        <Row Tag="TXT_KEY_CIV_NETWORK_STATE_DESC">
+            <Text>The Network State</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIV_NETWORK_STATE_SHORT_DESC">
+            <Text>Network State</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIV_NETWORK_STATE_ADJECTIVE">
+            <Text>Network State</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIV5_NETWORK_STATE_TEXT">
+            <Text>The Network State is a new kind of civilization — born in the cloud, grown through consensus, and capable of acquiring territory in the physical world. It begins as a community of aligned individuals, scales through collective action, and gains sovereignty through diplomatic recognition. Its citizens choose membership through exit rather than birth, and its borders are defined by cryptography rather than geography.</Text>
+        </Row>
+
+        <!-- ==================== DAWN OF MAN ==================== -->
+        <Row Tag="TXT_KEY_CIV5_DOM_NETWORK_STATE_TEXT">
+            <Text>Hail, Balaji Srinivasan! Visionary founder, technologist, and prophet of the decentralized world. You were born into an era of legacy institutions and ossified states — and you chose to build anew. Where others saw nations as permanent, you saw them as startups, waiting to be forked. You led your people not through conquest, but through code, through coordination, through the power of opt-in membership and aligned incentives.[NEWLINE][NEWLINE]The world is watching, Balaji. The old powers scoff at your cloud cities and crypto foundations — but your citizens grow in number, your technology races ahead, and your city-state allies whisper your name in their councils. Can you prove that the network precedes the nation? Can you build a civilization that earns its sovereignty not through bloodshed, but through undeniable competence?[NEWLINE][NEWLINE]The cloud awaits. Exit is yours. History will be written by those who build.</Text>
+        </Row>
+
+        <!-- ==================== LEADER ==================== -->
+        <Row Tag="TXT_KEY_LEADER_BALAJI">
+            <Text>Balaji Srinivasan</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_BALAJI">
+            <Text>Balaji Srinivasan is the author of The Network State and a leading theorist of decentralized civilization. A former CTO of Coinbase and partner at Andreessen Horowitz, he has spent decades articulating a vision of cloud-first communities that grow into sovereign entities. His ideas draw from charter cities, cryptography, startup culture, and a deep reading of political history. His thesis: the optimal scale for governance has changed, and those who build aligned digital communities today will hold physical territory tomorrow.</Text>
+        </Row>
+
+        <!-- ==================== TRAIT ==================== -->
+        <Row Tag="TXT_KEY_TRAIT_NETWORK_EFFECTS">
+            <Text>+2 [ICON_GOLD] Gold and +1 [ICON_RESEARCH] Science in every city. City-State relationships generate 25% more influence and bonuses. Gain +1 [ICON_GOLD] Gold and +1 [ICON_RESEARCH] Science per City-State alliance each turn.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_NETWORK_EFFECTS_SHORT">
+            <Text>The Sovereign Individual</Text>
+        </Row>
+
+        <!-- ==================== UNIQUE BUILDING ==================== -->
+        <Row Tag="TXT_KEY_BUILDING_STARTUP_ACCELERATOR">
+            <Text>Startup Accelerator</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_STARTUP_ACCELERATOR_STRATEGY">
+            <Text>The Startup Accelerator replaces the Workshop for the Network State. It provides the same production boost but also generates Science and Gold, reflecting the high-velocity innovation culture of the network state economy.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_STARTUP_ACCELERATOR_HELP">
+            <Text>+15% [ICON_PRODUCTION] Production, +3 [ICON_RESEARCH] Science, +2 [ICON_GOLD] Gold. Unique to the Network State; replaces the Workshop.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIV5_BUILDING_STARTUP_ACCELERATOR_TEXT">
+            <Text>The Startup Accelerator is the beating heart of the network state's local economy — a physical node where founders, engineers, and operators coordinate to ship products at inhuman velocity. Unlike the old workshop bound by geography and guild, the Accelerator is plugged into global capital and talent markets, transforming raw local production into compounding technological advantage.</Text>
+        </Row>
+
+        <!-- ==================== UNIQUE UNIT ==================== -->
+        <Row Tag="TXT_KEY_UNIT_NETWORK_GUARD">
+            <Text>Network Guard</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_NETWORK_GUARD_STRATEGY">
+            <Text>The Network Guard replaces the Rifleman for the Network State. With superior combat strength and experience operating in foreign territory, these disciplined fighters protect the network's physical nodes wherever they are founded.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_NETWORK_GUARD_HELP">
+            <Text>+6 [ICON_STRENGTH] Combat Strength over Rifleman. Bonus when operating in foreign or distant lands. Unique to the Network State.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIV5_UNIT_NETWORK_GUARD_TEXT">
+            <Text>The Network Guard are the security layer of the sovereign individual. Recruited from distributed communities across the globe, these soldiers carry no loyalty to legacy nations — only to the network. Their strength lies not just in combat, but in their ability to operate effectively outside traditional supply chains and state structures, establishing and defending the physical presence of the network wherever it chooses to plant its flag.</Text>
+        </Row>
+
+        <!-- ==================== CITY NAMES ==================== -->
+        <Row Tag="TXT_KEY_CITY_NAME_NETWORK_STATE_1">
+            <Text>The Cloud</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_NETWORK_STATE_2">
+            <Text>Node Prime</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_NETWORK_STATE_3">
+            <Text>Satoshi Square</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_NETWORK_STATE_4">
+            <Text>Exit Point</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_NETWORK_STATE_5">
+            <Text>Charter City</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_NETWORK_STATE_6">
+            <Text>Startup Hub</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_NETWORK_STATE_7">
+            <Text>Genesis Block</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_NETWORK_STATE_8">
+            <Text>Cryptoland</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_NETWORK_STATE_9">
+            <Text>Consensus</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_NETWORK_STATE_10">
+            <Text>Mainnet</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_NETWORK_STATE_11">
+            <Text>Validator</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_NETWORK_STATE_12">
+            <Text>Fork City</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_NETWORK_STATE_13">
+            <Text>Sidechain</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_NETWORK_STATE_14">
+            <Text>Threshold</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_NETWORK_STATE_15">
+            <Text>Borderless</Text>
+        </Row>
+
+        <!-- ==================== SPY NAMES ==================== -->
+        <Row Tag="TXT_KEY_SPY_NAME_NETWORK_STATE_0">
+            <Text>Satoshi</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_NETWORK_STATE_1">
+            <Text>Cipher</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_NETWORK_STATE_2">
+            <Text>Root</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_NETWORK_STATE_3">
+            <Text>Ghost</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_NETWORK_STATE_4">
+            <Text>Protocol</Text>
+        </Row>
+
+    </Language_en_US>
+</GameData>

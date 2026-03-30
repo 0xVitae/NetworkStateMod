@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+    <!-- ==================== LEADER: BALAJI SRINIVASAN ==================== -->
+    <Leaders>
+        <Row>
+            <Type>LEADER_BALAJI</Type>
+            <Description>TXT_KEY_LEADER_BALAJI</Description>
+            <Civilopedia>TXT_KEY_CIVILOPEDIA_LEADERS_BALAJI</Civilopedia>
+            <CivilopediaTag>CIVILOPEDIA_LEADERS_BALAJI</CivilopediaTag>
+            <ArtDefineTag>Balaji_Leaderhead.xml</ArtDefineTag>
+            <PortraitIndex>0</PortraitIndex>
+            <IconAtlas>NETWORKSTATE_LEADER_ATLAS</IconAtlas>
+            <!-- AI Personality: tech-focused, city-state friend, low warmongering -->
+            <VictoryCompetitiveness>7</VictoryCompetitiveness>
+            <WonderCompetitiveness>5</WonderCompetitiveness>
+            <MinorCivCompetitiveness>9</MinorCivCompetitiveness>
+            <Boldness>6</Boldness>
+            <DiploBalance>6</DiploBalance>
+            <WarmongerHate>8</WarmongerHate>
+            <DoFWillingness>8</DoFWillingness>
+            <DenounceWillingness>4</DenounceWillingness>
+            <Loyalty>7</Loyalty>
+            <Neediness>2</Neediness>
+            <Forgiveness>5</Forgiveness>
+            <Chattiness>7</Chattiness>
+            <Meanness>3</Meanness>
+        </Row>
+    </Leaders>
+
+    <!-- AI flavors: science and gold focused -->
+    <Leader_Flavors>
+        <Row>
+            <LeaderType>LEADER_BALAJI</LeaderType>
+            <FlavorType>FLAVOR_SCIENCE</FlavorType>
+            <Flavor>9</Flavor>
+        </Row>
+        <Row>
+            <LeaderType>LEADER_BALAJI</LeaderType>
+            <FlavorType>FLAVOR_GOLD</FlavorType>
+            <Flavor>8</Flavor>
+        </Row>
+        <Row>
+            <LeaderType>LEADER_BALAJI</LeaderType>
+            <FlavorType>FLAVOR_INFRASTRUCTURE</FlavorType>
+            <Flavor>7</Flavor>
+        </Row>
+        <Row>
+            <LeaderType>LEADER_BALAJI</LeaderType>
+            <FlavorType>FLAVOR_CITY_STATE</FlavorType>
+            <Flavor>9</Flavor>
+        </Row>
+        <Row>
+            <LeaderType>LEADER_BALAJI</LeaderType>
+            <FlavorType>FLAVOR_EXPANSION</FlavorType>
+            <Flavor>5</Flavor>
+        </Row>
+        <Row>
+            <LeaderType>LEADER_BALAJI</LeaderType>
+            <FlavorType>FLAVOR_OFFENSE</FlavorType>
+            <Flavor>3</Flavor>
+        </Row>
+        <Row>
+            <LeaderType>LEADER_BALAJI</LeaderType>
+            <FlavorType>FLAVOR_DEFENSE</FlavorType>
+            <Flavor>6</Flavor>
+        </Row>
+        <Row>
+            <LeaderType>LEADER_BALAJI</LeaderType>
+            <FlavorType>FLAVOR_DIPLOMACY</FlavorType>
+            <Flavor>7</Flavor>
+        </Row>
+        <Row>
+            <LeaderType>LEADER_BALAJI</LeaderType>
+            <FlavorType>FLAVOR_CULTURE</FlavorType>
+            <Flavor>4</Flavor>
+        </Row>
+        <Row>
+            <LeaderType>LEADER_BALAJI</LeaderType>
+            <FlavorType>FLAVOR_PRODUCTION</FlavorType>
+            <Flavor>6</Flavor>
+        </Row>
+        <Row>
+            <LeaderType>LEADER_BALAJI</LeaderType>
+            <FlavorType>FLAVOR_WONDER</FlavorType>
+            <Flavor>5</Flavor>
+        </Row>
+        <Row>
+            <LeaderType>LEADER_BALAJI</LeaderType>
+            <FlavorType>FLAVOR_GROWTH</FlavorType>
+            <Flavor>5</Flavor>
+        </Row>
+        <Row>
+            <LeaderType>LEADER_BALAJI</LeaderType>
+            <FlavorType>FLAVOR_SPACESHIP</FlavorType>
+            <Flavor>8</Flavor>
+        </Row>
+    </Leader_Flavors>
+
+    <!-- Link trait to leader -->
+    <Leader_Traits>
+        <Row>
+            <LeaderType>LEADER_BALAJI</LeaderType>
+            <TraitType>TRAIT_NETWORK_EFFECTS</TraitType>
+        </Row>
+    </Leader_Traits>
+
+</GameData>
