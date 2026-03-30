@@ -9,7 +9,7 @@
             <ShortDescription>TXT_KEY_CIV_NETWORK_STATE_SHORT_DESC</ShortDescription>
             <Adjective>TXT_KEY_CIV_NETWORK_STATE_ADJECTIVE</Adjective>
             <Civilopedia>TXT_KEY_CIV5_NETWORK_STATE_TEXT</Civilopedia>
-            <CivilopediaTag>CIVILOPEDIA_CIVILIZATIONS_NETWORK_STATE</CivilopediaTag>
+            <CivilopediaTag>TXT_KEY_CIVILOPEDIA_CIVILIZATIONS_NETWORK_STATE</CivilopediaTag>
             <DefaultPlayerColor>PLAYERCOLOR_NETHERLANDS</DefaultPlayerColor>
             <ArtDefineTag>ART_DEF_CIVILIZATION_AMERICA</ArtDefineTag>
             <ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
@@ -46,11 +46,7 @@
     <Civilization_FreeTechs>
         <Row>
             <CivilizationType>CIVILIZATION_NETWORK_STATE</CivilizationType>
-            <TechType>TECH_SAILING</TechType>
-        </Row>
-        <Row>
-            <CivilizationType>CIVILIZATION_NETWORK_STATE</CivilizationType>
-            <TechType>TECH_WRITING</TechType>
+            <TechType>TECH_AGRICULTURE</TechType>
         </Row>
     </Civilization_FreeTechs>
 

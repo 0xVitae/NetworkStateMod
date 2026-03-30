@@ -112,6 +112,88 @@
             <Text>Borderless</Text>
         </Row>
 
+        <!-- ==================== CIVILOPEDIA: CIVILIZATION ==================== -->
+        <Row Tag="TXT_KEY_CIVILOPEDIA_CIVILIZATIONS_NETWORK_STATE_TITLE">
+            <Text>The Network State</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILOPEDIA_CIVILIZATIONS_NETWORK_STATE_HEADING_1">
+            <Text>History</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILOPEDIA_CIVILIZATIONS_NETWORK_STATE_TEXT_1">
+            <Text>The Network State is not a civilization born of geography, blood, or conquest. It is a civilization born of ideas — specifically, the idea that a sufficiently aligned online community can grow into a sovereign entity with physical territory. First articulated by Balaji Srinivasan in his 2022 book "The Network State," the concept draws on decades of thinking about charter cities, seasteading, startup societies, and the capacity of cryptographic protocols to coordinate human action without traditional institutions. The Network State begins as a digital community united by a shared moral proposition, scales through collective action and crowdfunded territory, and ultimately seeks diplomatic recognition as a legitimate polity.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILOPEDIA_CIVILIZATIONS_NETWORK_STATE_HEADING_2">
+            <Text>The Cloud Before the Land</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILOPEDIA_CIVILIZATIONS_NETWORK_STATE_TEXT_2">
+            <Text>The defining thesis of the Network State is that the cloud precedes the land. Unlike traditional nations, which formed around rivers, harbors, and arable plains, the Network State assembles its population online before ever acquiring a single acre. Citizens join by choice — opting in through shared values and cryptographic identity — rather than by accident of birth. This inversion of the traditional state-formation process means the Network State has a built-in filter for alignment: its citizens chose to be there, and they can leave at any time. Exit over voice is the foundational principle. If you disagree with the direction of the state, you fork it — you do not petition a distant parliament.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILOPEDIA_CIVILIZATIONS_NETWORK_STATE_HEADING_3">
+            <Text>Cryptographic Sovereignty</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILOPEDIA_CIVILIZATIONS_NETWORK_STATE_TEXT_3">
+            <Text>The Network State derives its sovereignty not from a monopoly on violence, but from cryptographic consensus. Its treasury is a blockchain, its citizenship is a token, and its laws are smart contracts. This does not mean the Network State is lawless — quite the opposite. Code-based governance is deterministic and transparent in ways that legislative bodies rarely achieve. Disputes are resolved through on-chain arbitration. Taxation is algorithmic. The census is real-time. And because every citizen's membership is voluntary and revocable, the state faces constant market pressure to govern well or lose its population to a competing network.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILOPEDIA_CIVILIZATIONS_NETWORK_STATE_HEADING_4">
+            <Text>Physical Nodes</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILOPEDIA_CIVILIZATIONS_NETWORK_STATE_TEXT_4">
+            <Text>As the Network State grows in population and treasury, it begins acquiring physical territory — not through conquest, but through purchase and negotiation. These physical nodes are scattered across the globe: a neighborhood in Singapore, a campus in Costa Rica, a co-living complex in Montenegro. Individually, each node is small. Collectively, they form an archipelago of sovereign territory connected by the internet rather than by contiguous borders. Citizens move freely between nodes, carrying their identity and reputation on-chain. The Network State does not need a capital — it needs bandwidth.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILOPEDIA_CIVILIZATIONS_NETWORK_STATE_HEADING_5">
+            <Text>Diplomatic Recognition</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILOPEDIA_CIVILIZATIONS_NETWORK_STATE_TEXT_5">
+            <Text>The final stage of Network State maturation is diplomatic recognition — the moment when existing nation-states acknowledge the Network State as a legitimate peer. This is achieved not through military force but through undeniable competence: a large population, a functioning economy, a demonstrated capacity for self-governance, and a treasury sufficient to matter on the world stage. The Network State proves its legitimacy the same way a startup proves product-market fit: by growing so successfully that ignoring it becomes more costly than recognizing it.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILOPEDIA_CIVILIZATIONS_NETWORK_STATE_FACTOID_HEADING">
+            <Text>Network State Factoids</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILOPEDIA_CIVILIZATIONS_NETWORK_STATE_FACTOID_TEXT">
+            <Text>The term "Network State" was coined by Balaji Srinivasan, who also predicted the COVID-19 pandemic weeks before it became widely recognized.[NEWLINE][NEWLINE]The concept of "exit over voice" comes from economist Albert O. Hirschman's 1970 book, applied to sovereign governance.[NEWLINE][NEWLINE]Balaji proposed the idea of a "1729" society — named after the Hardy-Ramanujan number — as an early prototype of Network State community building.[NEWLINE][NEWLINE]The Network State's approach to territory mirrors how the internet itself grew: not by claiming contiguous space, but by connecting distributed nodes into a coherent network.[NEWLINE][NEWLINE]Several real-world projects inspired by the Network State concept are currently in various stages of development, including Praxis, Prospera, and Vitalia.</Text>
+        </Row>
+
+        <!-- ==================== CIVILOPEDIA: LEADER ==================== -->
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_BALAJI_NAME">
+            <Text>Balaji Srinivasan</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_BALAJI_SUBTITLE">
+            <Text>Founder of The Network State</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_BALAJI_LIVED">
+            <Text>1980 - present</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_BALAJI_HEADING_1">
+            <Text>Early Life</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_BALAJI_TEXT_1">
+            <Text>Balaji Srinivasan was born to Indian immigrant parents and raised in the United States. He earned his BS, MS, and PhD in Electrical Engineering and Chemical Engineering from Stanford University, where he later taught courses on genomics and statistics. His academic work spanned computational biology, data science, and the intersection of technology with large-scale coordination problems — themes that would define his career.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_BALAJI_HEADING_2">
+            <Text>Silicon Valley</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_BALAJI_TEXT_2">
+            <Text>Balaji co-founded multiple companies, including Counsyl (a genomics company that screened roughly 4% of all US births) and Earn.com (a platform for earning cryptocurrency by answering emails, later acquired by Coinbase). He served as CTO of Coinbase and as a General Partner at Andreessen Horowitz (a16z), one of Silicon Valley's most influential venture capital firms. Throughout his career in technology and investing, Balaji maintained an active public intellectual presence, writing and speaking prolifically on topics ranging from media criticism to regulatory capture to the future of governance.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_BALAJI_HEADING_3">
+            <Text>The Network State Thesis</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_BALAJI_TEXT_3">
+            <Text>In 2022, Balaji published "The Network State: How to Start a New Country," which he released simultaneously as a free online book and a physical publication. The book argues that the internet has made it possible to form new countries by starting with online communities, growing them into network unions, and eventually acquiring physical territory and diplomatic recognition. The thesis synthesizes ideas from Peter Thiel, James Dale Davidson, William Rees-Mogg, Paul Romer, and Patri Friedman, while adding the critical insight that cryptocurrency and cryptographic identity make cloud-first sovereignty technically feasible for the first time in history.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_BALAJI_HEADING_4">
+            <Text>Philosophy</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_BALAJI_TEXT_4">
+            <Text>Balaji's worldview is built on several core convictions: that technology is the primary driver of historical change, that decentralization is morally and practically superior to centralization, that exit is more powerful than voice, and that the individual should be sovereign. He views the nation-state as a technology — one with a particular version number — and argues that like any technology, it can be upgraded or replaced by something better. He is deeply critical of what he calls "the Paper Belt" — the legacy institutions of media, academia, and government that he believes resist technological disruption to protect their own power.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_BALAJI_HEADING_5">
+            <Text>Legacy</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_BALAJI_TEXT_5">
+            <Text>Whether the Network State succeeds as a practical project or endures as a philosophical provocation, Balaji Srinivasan has already reshaped how a generation of technologists thinks about governance, sovereignty, and the relationship between digital communities and physical power. His ideas have inspired charter city projects, crypto-governance experiments, and a broader conversation about whether the Westphalian nation-state is truly the final form of human political organization — or merely the current one.</Text>
+        </Row>
+
         <!-- ==================== SPY NAMES ==================== -->
         <Row Tag="TXT_KEY_SPY_NAME_NETWORK_STATE_0">
             <Text>Satoshi</Text>

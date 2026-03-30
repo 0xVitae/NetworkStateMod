@@ -7,7 +7,7 @@
             <Type>LEADER_BALAJI</Type>
             <Description>TXT_KEY_LEADER_BALAJI</Description>
             <Civilopedia>TXT_KEY_CIVILOPEDIA_LEADERS_BALAJI</Civilopedia>
-            <CivilopediaTag>CIVILOPEDIA_LEADERS_BALAJI</CivilopediaTag>
+            <CivilopediaTag>TXT_KEY_CIVILOPEDIA_LEADERS_BALAJI</CivilopediaTag>
             <ArtDefineTag>Balaji_Leaderhead.xml</ArtDefineTag>
             <PortraitIndex>0</PortraitIndex>
             <IconAtlas>NETWORKSTATE_LEADER_ATLAS</IconAtlas>
