@@ -1,6 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 
+    <!-- ==================== PLAYER COLORS ==================== -->
+    <Colors>
+        <Row>
+            <Type>COLOR_PLAYER_NETWORK_STATE_ICON</Type>
+            <Red>0.05</Red>
+            <Green>0.05</Green>
+            <Blue>0.05</Blue>
+            <Alpha>1</Alpha>
+        </Row>
+        <Row>
+            <Type>COLOR_PLAYER_NETWORK_STATE_BACKGROUND</Type>
+            <Red>1.0</Red>
+            <Green>1.0</Green>
+            <Blue>1.0</Blue>
+            <Alpha>1</Alpha>
+        </Row>
+    </Colors>
+
+    <PlayerColors>
+        <Row>
+            <Type>PLAYERCOLOR_NETWORK_STATE</Type>
+            <PrimaryColor>COLOR_PLAYER_NETWORK_STATE_ICON</PrimaryColor>
+            <SecondaryColor>COLOR_PLAYER_NETWORK_STATE_BACKGROUND</SecondaryColor>
+            <TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
+        </Row>
+    </PlayerColors>
+
     <!-- ==================== CIVILIZATION: THE NETWORK STATE ==================== -->
     <Civilizations>
         <Row>
@@ -10,7 +37,7 @@
             <Adjective>TXT_KEY_CIV_NETWORK_STATE_ADJECTIVE</Adjective>
             <Civilopedia>TXT_KEY_CIV5_NETWORK_STATE_TEXT</Civilopedia>
             <CivilopediaTag>TXT_KEY_CIVILOPEDIA_CIVILIZATIONS_NETWORK_STATE</CivilopediaTag>
-            <DefaultPlayerColor>PLAYERCOLOR_NETHERLANDS</DefaultPlayerColor>
+            <DefaultPlayerColor>PLAYERCOLOR_NETWORK_STATE</DefaultPlayerColor>
             <ArtDefineTag>ART_DEF_CIVILIZATION_AMERICA</ArtDefineTag>
             <ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
             <ArtStyleSuffix>_EURO</ArtStyleSuffix>
