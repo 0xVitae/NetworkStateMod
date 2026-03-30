@@ -20,7 +20,7 @@
             <HurryCostModifier>25</HurryCostModifier>
             <GreatWorkCount>-1</GreatWorkCount>
             <IconAtlas>BW_ATLAS_1</IconAtlas>
-            <PortraitIndex>40</PortraitIndex>
+            <PortraitIndex>62</PortraitIndex>
             <NeverCapture>false</NeverCapture>
             <NukeImmune>false</NukeImmune>
         </Row>

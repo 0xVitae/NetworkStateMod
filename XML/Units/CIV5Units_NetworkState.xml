@@ -27,8 +27,8 @@
             <UnitArtInfo>ART_DEF_UNIT_RIFLEMAN</UnitArtInfo>
             <UnitFlagAtlas>NETWORKSTATE_FLAG_ATLAS</UnitFlagAtlas>
             <UnitFlagIconOffset>0</UnitFlagIconOffset>
-            <IconAtlas>UNIT_ATLAS_1</IconAtlas>
-            <PortraitIndex>27</PortraitIndex>
+            <IconAtlas>EXPANSION2_UNIT_ATLAS</IconAtlas>
+            <PortraitIndex>0</PortraitIndex>
         </Row>
     </Units>
 
