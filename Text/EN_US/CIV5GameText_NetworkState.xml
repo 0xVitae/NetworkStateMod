@@ -59,7 +59,7 @@
             <Text>The Network Guard replaces the Rifleman for the Network State. With superior combat strength and experience operating in foreign territory, these disciplined fighters protect the network's physical nodes wherever they are founded.</Text>
         </Row>
         <Row Tag="TXT_KEY_UNIT_NETWORK_GUARD_HELP">
-            <Text>+6 [ICON_STRENGTH] Combat Strength over Rifleman. Bonus when operating in foreign or distant lands. Unique to the Network State.</Text>
+            <Text>+6 [ICON_STRENGTH] Combat Strength over Rifleman. Starts with Cover I and Scouting I. Unique to the Network State.</Text>
         </Row>
         <Row Tag="TXT_KEY_CIV5_UNIT_NETWORK_GUARD_TEXT">
             <Text>The Network Guard are the security layer of the sovereign individual. Recruited from distributed communities across the globe, these soldiers carry no loyalty to legacy nations — only to the network. Their strength lies not just in combat, but in their ability to operate effectively outside traditional supply chains and state structures, establishing and defending the physical presence of the network wherever it chooses to plant its flag.</Text>

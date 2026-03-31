@@ -11,7 +11,7 @@
             <Strategy>TXT_KEY_BUILDING_STARTUP_ACCELERATOR_STRATEGY</Strategy>
             <Help>TXT_KEY_BUILDING_STARTUP_ACCELERATOR_HELP</Help>
             <ArtDefineTag>ART_DEF_BUILDING_WORKSHOP</ArtDefineTag>
-            <FreeStartEra/>
+            <FreeStartEra>ERA_ANCIENT</FreeStartEra>
             <PrereqTech>TECH_METAL_CASTING</PrereqTech>
             <Cost>120</Cost>
             <GoldMaintenance>1</GoldMaintenance>

@@ -34,10 +34,10 @@
 
     <!-- Free promotions for Network Guard -->
     <Unit_FreePromotions>
-        <!-- Bonus in enemy territory (operating in foreign lands) -->
+        <!-- +25% defense vs ranged (guards hold the line) -->
         <Row>
             <UnitType>UNIT_NETWORK_GUARD</UnitType>
-            <PromotionType>PROMOTION_FOREIGN_LANDS</PromotionType>
+            <PromotionType>PROMOTION_COVER_1</PromotionType>
         </Row>
         <!-- Extra sight range -->
         <Row>

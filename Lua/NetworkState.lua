@@ -68,23 +68,20 @@ GameEvents.PlayerDoTurn.Add(NetworkState_PlayerDoTurn)
 
 -- Notification on first turn to confirm the mod loaded
 local function NetworkState_GameStart()
-    for playerID = 0, GameDefines.MAX_MAJOR_CIVS - 1 do
-        local player = Players[playerID]
-        if player ~= nil and player:IsAlive() and player:IsHuman() then
-            if player:GetCivilizationType() == GetNetworkStateCivType() then
-                if Players[playerID]:GetNotifications() then
-                    Players[playerID]:AddNotification(
-                        NotificationTypes.NOTIFICATION_GENERIC,
-                        "The Network State is ready. Each City-State alliance yields +1 [ICON_GOLD] Gold and +1 [ICON_RESEARCH] Science per turn.",
-                        "The Sovereign Individual",
-                        -1, -1
-                    )
-                end
-            end
+    local activePlayerID = Game.GetActivePlayer()
+    local player = Players[activePlayerID]
+    if player ~= nil and player:IsAlive() then
+        if player:GetCivilizationType() == GetNetworkStateCivType() then
+            player:AddNotification(
+                NotificationTypes.NOTIFICATION_GENERIC,
+                "The Network State is ready. Each City-State alliance yields +1 [ICON_GOLD] Gold and +1 [ICON_RESEARCH] Science per turn.",
+                "The Sovereign Individual",
+                -1, -1
+            )
         end
     end
 end
 
-GameEvents.GameStarted.Add(NetworkState_GameStart)
+Events.LoadScreenClose.Add(NetworkState_GameStart)
 
 print("[NetworkState] Mod loaded successfully.")
