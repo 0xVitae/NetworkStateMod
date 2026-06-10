@@ -1,24 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 
-    <!-- ==================== STARTUP ACCELERATOR (replaces Workshop) ==================== -->
+    <!-- ==================== STARTUP ACCELERATOR (replaces Stock Exchange) ==================== -->
     <Buildings>
         <Row>
             <Type>BUILDING_STARTUP_ACCELERATOR</Type>
-            <BuildingClass>BUILDINGCLASS_WORKSHOP</BuildingClass>
+            <BuildingClass>BUILDINGCLASS_STOCK_EXCHANGE</BuildingClass>
             <Description>TXT_KEY_BUILDING_STARTUP_ACCELERATOR</Description>
             <Civilopedia>TXT_KEY_CIV5_BUILDING_STARTUP_ACCELERATOR_TEXT</Civilopedia>
             <Strategy>TXT_KEY_BUILDING_STARTUP_ACCELERATOR_STRATEGY</Strategy>
             <Help>TXT_KEY_BUILDING_STARTUP_ACCELERATOR_HELP</Help>
-            <ArtDefineTag>ART_DEF_BUILDING_WORKSHOP</ArtDefineTag>
-            <FreeStartEra>ERA_ANCIENT</FreeStartEra>
-            <PrereqTech>TECH_METAL_CASTING</PrereqTech>
-            <Cost>120</Cost>
-            <GoldMaintenance>1</GoldMaintenance>
+            <ArtDefineTag>ART_DEF_BUILDING_STOCK_EXCHANGE</ArtDefineTag>
+            <PrereqTech>TECH_ELECTRICITY</PrereqTech>
+            <!-- Same cost as the Hydro Plant (BUILDING_HYDRO_PLANT) -->
+            <Cost>360</Cost>
             <MinAreaSize>-1</MinAreaSize>
-            <ConquestProb>66</ConquestProb>
-            <HurryCostModifier>25</HurryCostModifier>
-            <GreatWorkCount>-1</GreatWorkCount>
+            <ConquestProb>75</ConquestProb>
+            <HurryCostModifier>15</HurryCostModifier>
+            <!-- SpecialistType must stay: it selects which GP type GreatPeopleRateChange
+                 feeds. Count 0 = no working slots. -->
+            <SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
+            <SpecialistCount>0</SpecialistCount>
+            <GreatPeopleRateChange>9</GreatPeopleRateChange>
+            <!-- Coffee-House pattern: +25% to all Great Person generation in this city. -->
+            <GreatPeopleRateModifier>25</GreatPeopleRateModifier>
+            <GreatWorkCount>0</GreatWorkCount>
+            <!-- Medical Lab portrait -->
             <IconAtlas>BW_ATLAS_1</IconAtlas>
             <PortraitIndex>62</PortraitIndex>
             <NeverCapture>false</NeverCapture>
@@ -26,22 +33,31 @@
         </Row>
     </Buildings>
 
-    <!-- +15% Production modifier (same table as vanilla Workshop uses) -->
+    <!-- Same Bank prereq as vanilla Stock Exchange -->
+    <Building_ClassesNeededInCity>
+        <Row>
+            <BuildingType>BUILDING_STARTUP_ACCELERATOR</BuildingType>
+            <BuildingClassType>BUILDINGCLASS_BANK</BuildingClassType>
+        </Row>
+    </Building_ClassesNeededInCity>
+
+    <!-- +33% Gold modifier (mirrors vanilla Stock Exchange) and +10% Science
+         (University-style percentage modifier instead of flat science) -->
     <Building_YieldModifiers>
         <Row>
             <BuildingType>BUILDING_STARTUP_ACCELERATOR</BuildingType>
-            <YieldType>YIELD_PRODUCTION</YieldType>
-            <Yield>15</Yield>
+            <YieldType>YIELD_GOLD</YieldType>
+            <Yield>33</Yield>
         </Row>
-    </Building_YieldModifiers>
-
-    <!-- Yield changes for Startup Accelerator -->
-    <Building_YieldChanges>
         <Row>
             <BuildingType>BUILDING_STARTUP_ACCELERATOR</BuildingType>
             <YieldType>YIELD_SCIENCE</YieldType>
-            <Yield>3</Yield>
+            <Yield>10</Yield>
         </Row>
+    </Building_YieldModifiers>
+
+    <!-- Flat yield extras unique to the Network State variant -->
+    <Building_YieldChanges>
         <Row>
             <BuildingType>BUILDING_STARTUP_ACCELERATOR</BuildingType>
             <YieldType>YIELD_GOLD</YieldType>

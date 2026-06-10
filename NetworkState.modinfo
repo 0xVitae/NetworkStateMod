@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Mod id="a1b2c3d4-e5f6-7890-abcd-ef1234567890" version="1">
+<Mod id="a1b2c3d4-e5f6-7890-abcd-ef1234567890" version="2">
     <Properties>
         <Name>The Network State - Balaji Srinivasan</Name>
         <Description>Adds The Network State civilization led by Balaji Srinivasan. Build a decentralized empire through City-State alliances, technology, and exit over voice.</Description>
@@ -15,7 +15,21 @@
         <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
         <ReloadUnitSystem>1</ReloadUnitSystem>
     </Properties>
-    <Dependencies/>
+    <Dependencies>
+        <!-- Requires all Civ V DLC (expansions, civ packs, map packs) -->
+        <Dlc id="0E3751A1-F840-4e1b-9706-519BF484E59D" minversion="0" maxversion="999" /> <!-- Gods and Kings -->
+        <Dlc id="6DA07636-4123-4018-B643-6575B4EC336B" minversion="0" maxversion="999" /> <!-- Brave New World -->
+        <Dlc id="7459BA32-5764-44ae-8E95-01AD0E0EFD48" minversion="0" maxversion="999" /> <!-- Babylon -->
+        <Dlc id="293C1EE3-1176-44f6-AC1F-59663826DE74" minversion="0" maxversion="999" /> <!-- Mongolia -->
+        <Dlc id="B685D5DE-7CCA-4e75-81B4-2F60754E6330" minversion="0" maxversion="999" /> <!-- Spain and Inca -->
+        <Dlc id="ECF7C605-BA11-4CAC-8D80-D71306AAC471" minversion="0" maxversion="999" /> <!-- Polynesia -->
+        <Dlc id="B3030D39-C0D8-4bc7-91B1-7AD1CAF585AB" minversion="0" maxversion="999" /> <!-- Denmark -->
+        <Dlc id="112C22B2-5308-42b6-B734-171CCAB3037B" minversion="0" maxversion="999" /> <!-- Korea -->
+        <Dlc id="BBB0D085-A0B1-4475-B007-3E549CF3ADC3" minversion="0" maxversion="999" /> <!-- Wonders of the Ancient World -->
+        <Dlc id="3F49DF54-68B6-44d1-A930-A168628FAA59" minversion="0" maxversion="999" /> <!-- Explorer's Map Pack -->
+        <Dlc id="46EAEFFC-7B1D-443d-BFC8-F825DFEFB094" minversion="0" maxversion="999" /> <!-- Scrambled Continents Map Pack -->
+        <Dlc id="4255F5F7-D3AB-4e55-ACEE-4670082040ED" minversion="0" maxversion="999" /> <!-- Scrambled Nations Map Pack -->
+    </Dependencies>
     <References/>
     <Blocks/>
     <Actions>
@@ -32,7 +46,7 @@
     <EntryPoints>
         <EntryPoint type="InGameUIAddin" file="Lua/NetworkState.lua">
             <Name>NetworkState_UA</Name>
-            <Description>Network State UA: +1 Gold and Science per City-State alliance</Description>
+            <Description>Network State scripted bonuses: Startup Founder Trade Mission science</Description>
         </EntryPoint>
     </EntryPoints>
     <Files>
@@ -44,6 +58,11 @@
         <File md5="" import="0">XML/Civilizations/CIV5Civilization_NetworkState.xml</File>
         <File md5="" import="0">Text/EN_US/CIV5GameText_NetworkState.xml</File>
         <File md5="" import="0">Lua/NetworkState.lua</File>
+        <File md5="" import="1">UI/UnitPanel.lua</File>
+        <File md5="" import="1">UI/CityBannerManager.lua</File>
+        <File md5="" import="1">UI/CityStateDiploPopup.lua</File>
+        <File md5="" import="1">UI/TopPanel.lua</File>
+        <File md5="" import="1">Lua/AssignStartingPlots.lua</File>
         <File md5="" import="1">Art/Icons/NetworkState_256.dds</File>
         <File md5="" import="1">Art/Icons/NetworkState_128.dds</File>
         <File md5="" import="1">Art/Icons/NetworkState_80.dds</File>

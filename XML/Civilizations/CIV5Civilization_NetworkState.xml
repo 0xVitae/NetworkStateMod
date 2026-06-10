@@ -173,19 +173,36 @@
         </Row>
     </Civilization_SpyNames>
 
+    <!-- Start bias — coastal start, preferring jungle regions.
+         Stock AssignStartingPlots.lua ignores Region_Priority for coastal-bias civs;
+         the mod ships a patched Lua/AssignStartingPlots.lua (VFS) that honors both. -->
+    <Civilization_Start_Along_Ocean>
+        <Row>
+            <CivilizationType>CIVILIZATION_NETWORK_STATE</CivilizationType>
+            <StartAlongOcean>true</StartAlongOcean>
+        </Row>
+    </Civilization_Start_Along_Ocean>
+
+    <Civilization_Start_Region_Priority>
+        <Row>
+            <CivilizationType>CIVILIZATION_NETWORK_STATE</CivilizationType>
+            <RegionType>REGION_JUNGLE</RegionType>
+        </Row>
+    </Civilization_Start_Region_Priority>
+
     <!-- Unique components — must be here so CIVILIZATION_NETWORK_STATE exists first -->
     <Civilization_UnitClassOverrides>
         <Row>
             <CivilizationType>CIVILIZATION_NETWORK_STATE</CivilizationType>
-            <UnitClassType>UNITCLASS_RIFLEMAN</UnitClassType>
-            <UnitType>UNIT_NETWORK_GUARD</UnitType>
+            <UnitClassType>UNITCLASS_MERCHANT</UnitClassType>
+            <UnitType>UNIT_NETWORK_MERCHANT</UnitType>
         </Row>
     </Civilization_UnitClassOverrides>
 
     <Civilization_BuildingClassOverrides>
         <Row>
             <CivilizationType>CIVILIZATION_NETWORK_STATE</CivilizationType>
-            <BuildingClassType>BUILDINGCLASS_WORKSHOP</BuildingClassType>
+            <BuildingClassType>BUILDINGCLASS_STOCK_EXCHANGE</BuildingClassType>
             <BuildingType>BUILDING_STARTUP_ACCELERATOR</BuildingType>
         </Row>
     </Civilization_BuildingClassOverrides>

@@ -7,24 +7,27 @@
             <Type>TRAIT_NETWORK_EFFECTS</Type>
             <Description>TXT_KEY_TRAIT_NETWORK_EFFECTS</Description>
             <ShortDescription>TXT_KEY_TRAIT_NETWORK_EFFECTS_SHORT</ShortDescription>
-            <!-- Bonus to influence/relations with City-States -->
-            <CityStateBonusModifier>25</CityStateBonusModifier>
-            <CityStateFriendshipModifier>25</CityStateFriendshipModifier>
+            <!-- Free Startup Founder on discovering Currency (Babylon-style grant).
+                 UNITCLASS_MERCHANT is the Great Merchant's class; the civ's
+                 UnitClassOverride resolves it to UNIT_NETWORK_MERCHANT. -->
+            <FreeUnit>UNITCLASS_MERCHANT</FreeUnit>
+            <FreeUnitPrereqTech>TECH_CURRENCY</FreeUnitPrereqTech>
         </Row>
     </Traits>
 
-    <!-- Flat yield bonus in every city -->
-    <Trait_YieldChanges>
+    <!-- Hidden branchless policy carrying the Scholasticism flag (allied
+         City-States provide a Science bonus equal to 25% of their own
+         output, via MINOR_CIV_SCIENCE_BONUS_MULTIPLIER). Granted free and
+         automatically to Network State players by NetworkState.lua; it
+         never appears in the policy picker because it has no branch.
+         This makes the science half of the UA engine-native: it shows in
+         the science tooltip and research turn estimates correctly. -->
+    <Policies>
         <Row>
-            <TraitType>TRAIT_NETWORK_EFFECTS</TraitType>
-            <YieldType>YIELD_GOLD</YieldType>
-            <Yield>2</Yield>
+            <Type>POLICY_NETWORK_STATE_SCIENCE</Type>
+            <Description>TXT_KEY_TRAIT_NETWORK_EFFECTS_SHORT</Description>
+            <MinorScienceAllies>true</MinorScienceAllies>
         </Row>
-        <Row>
-            <TraitType>TRAIT_NETWORK_EFFECTS</TraitType>
-            <YieldType>YIELD_SCIENCE</YieldType>
-            <Yield>1</Yield>
-        </Row>
-    </Trait_YieldChanges>
+    </Policies>
 
 </GameData>
